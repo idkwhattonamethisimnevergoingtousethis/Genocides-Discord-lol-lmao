@@ -106,10 +106,3 @@ span[class="bold__7430c"]:has(>span:contains('error'))
     color: red;
     text-shadow: 0px 0px 5px red,  0px 0px 5px red;
 }
-.messageContent__21e69 > strong:has(>span:contains('error')),
-span[class="bold__7430c"]:has(>span:contains('error'))
-{ /* Determination, syntax: " **text** " */
-    font-weight: bold;
-    color: red;
-    text-shadow: 0px 0px 5px red,  0px 0px 5px red;
-}
