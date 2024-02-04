@@ -29,7 +29,7 @@ span[class="bold__7430c"]
 { /* Determination, syntax: " **text** " */
     font-weight: bold;
     color: red;
-    text-shadow: 0px 0px 5px red,  0px 0px 5px red;
+    text-shadow: 0px 0px 20px red,  0px 0px 20px red;
 }
 
 .messageContent__21e69 > strong > em:has(>span),
@@ -37,7 +37,7 @@ span[class="bold__7430c italics_b5be51"]
 { /* Bravery, syntax: " **_text_** " */
     font-weight: bold;
     color: orange;
-    text-shadow: 0px 0px 5px orange,  0px 0px 5px orange;
+    text-shadow: 0px 0px 20px orange,  0px 0px 20px orange;
 }
 
 .messageContent__21e69 > s:has(>span),
@@ -45,7 +45,7 @@ span[class="strikethrough_d0f036"]
 { /* Justice, syntax: " ~~text~~ " */
     font-weight: bold;
     color: yellow;
-    text-shadow: 0px 0px 5px yellow,  0px 0px 5px yellow;
+    text-shadow: 0px 0px 20px yellow,  0px 0px 20px yellow;
 }
 
 .messageContent__21e69 > em:has(>span),
@@ -53,7 +53,7 @@ span[class="italics_b5be51"]
 { /* Kindness, syntax: " *text* " */
     font-weight: bold;
     color: lime;
-    text-shadow: 0px 0px 5px lime,  0px 0px 5px lime;
+    text-shadow: 0px 0px 20px lime,  0px 0px 20px lime;
 }
 
 .messageContent__21e69 > u:has(>span), 
@@ -61,7 +61,7 @@ span[class="underline_b218b4"]
 { /* Patience, syntax: " __text__ " */
     font-weight: bold;
     color: cyan;
-    text-shadow: 0px 0px 5px cyan,  0px 0px 5px cyan ;
+    text-shadow: 0px 0px 20px cyan,  0px 0px 20px cyan ;
 }
 
 .messageContent__21e69 > s > strong:has(>span),
@@ -69,7 +69,7 @@ span[class="strikethrough_d0f036 bold__7430c"]
 { /* Integrity, syntax: " ~~**text**~~ " */
     font-weight: bold;
     color: blue;
-    text-shadow: 0px 0px 5px blue,  0px 0px 5px blue;
+    text-shadow: 0px 0px 20px blue,  0px 0px 20px blue;
 }
 
 .messageContent__21e69 > em > strong:has(>span), 
@@ -77,7 +77,7 @@ span[class="italics_b5be51 bold__7430c"]
 { /* Perseverance, syntax: " _**text**_ " */
     font-weight: bold;
     color: darkmagenta;
-    text-shadow: 0px 0px 5px darkmagenta,  0px 0px 5px darkmagenta;
+    text-shadow: 0px 0px 20px darkmagenta,  0px 0px 20px darkmagenta;
 }
 
 .messageContent__21e69 > strong > s:has(>span),
