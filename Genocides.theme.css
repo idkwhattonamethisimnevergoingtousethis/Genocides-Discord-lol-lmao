@@ -83,8 +83,7 @@ span[class="italics_b5be51 bold__7430c"]
 .messageContent__21e69 > strong > s:has(>span),
 span[class="bold__7430c strikethrough_d0f036"] 
 { /* trans text, syntax: " **~~text~~** " */
-    --trans-grad: linear-gradient(90deg, #5BCEFA, #F5A9B8, #FFFFFF, #F5A9B8, #5BCEFA);
-    font-weight: bold;
+    --trans-grad: linear-gradient(90deg, #FF0018, #FFA52C, #FFFF41, #008018, #0000F9, #8B00FF);
     background: var(--trans-grad);
     background-clip: text;
     -webkit-background-clip: text;
