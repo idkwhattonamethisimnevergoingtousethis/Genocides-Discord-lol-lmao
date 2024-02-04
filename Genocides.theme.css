@@ -83,13 +83,12 @@ span[class="italics_b5be51 bold__7430c"]
 .messageContent__21e69 > strong > s:has(>span),
 span[class="bold__7430c strikethrough_d0f036"] 
 { /* gay text, syntax: " **~~text~~** " */
-    --trans-grad: linear-gradient(90deg, hsl(var(--hue),100%,50%), #FFA52C, #FFFF41, #008018, #0000F9, #8B00FF);/
+    --trans-grad: linear-gradient(90deg, #FF0018,100%,50%), #FFA52C, #FFFF41, #008018, #0000F9, #8B00FF);/
     font-weight: bold;
     background: var(--trans-grad);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-        animation: hue-rotate 1s infinite ease-in-out;
 }
 
 .messageContent__21e69 > strong > u:has(>span),
