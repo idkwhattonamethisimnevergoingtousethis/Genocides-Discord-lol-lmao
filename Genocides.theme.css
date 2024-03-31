@@ -22,8 +22,7 @@
 span[class="bold__7430c"] {
     font-weight: bold;
     color: red;
-    text-shadow: 0px 0px 5px red,  0px 0px 500px red;
-    font-family: Arial, sans-serif; /* Change font family here */
+    text-shadow: 0px 0px 5px red,  0px 0px 5px red;
 }
 
 
@@ -35,7 +34,6 @@ span[class="bold__7430c italics_b5be51"] {
     font-weight: bold;
     color: orange;
     text-shadow: 0px 0px 5px orange,  0px 0px 5px orange;
-    font-family: Arial, sans-serif; /* Change font family here */
 }
 
 
@@ -47,7 +45,6 @@ span[class="strikethrough_d0f036"] {
     font-weight: bold;
     color: yellow;
     text-shadow: 0px 0px 5px yellow,  0px 0px 5px yellow;
-    font-family: Arial, sans-serif; /* Change font family here */
 }
 
 
@@ -59,7 +56,6 @@ span[class="italics_b5be51"] {
     font-weight: bold;
     color: lime;
     text-shadow: 0px 0px 5px lime,  0px 0px 5px lime;
-    font-family: Arial, sans-serif; /* Change font family here */
 }
 
 
@@ -71,7 +67,6 @@ span[class="underline_b218b4"] {
     font-weight: bold;
     color: cyan;
     text-shadow: 0px 0px 5px cyan,  0px 0px 5px cyan ;
-    font-family: Arial, sans-serif; /* Change font family here */
 }
 
 
@@ -83,7 +78,6 @@ span[class="strikethrough_d0f036 bold__7430c"] {
     font-weight: bold;
     color: blue;
     text-shadow: 0px 0px 5px blue,  0px 0px 5px blue;
-    font-family: Arial, sans-serif; /* Change font family here */
 }
 
 
@@ -95,7 +89,6 @@ span[class="italics_b5be51 bold__7430c"] {
     font-weight: bold;
     color: darkmagenta;
     text-shadow: 0px 0px 5px darkmagenta,  0px 0px 5px darkmagenta;
-    font-family: Arial, sans-serif; /* Change font family here */
 }
 
 
@@ -110,7 +103,6 @@ span[class="bold__7430c strikethrough_d0f036"] {
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    font-family: Arial, sans-serif; /* Change font family here */
 }
 
 
@@ -134,7 +126,6 @@ span[class="bold__7430c underline_b218b4"] {
     color: hsl(var(--hue),100%,50%);
     text-shadow: 0px 0px 5px hsl(var(--hue),100%,50%), 0px 0px 5px hsl(var(--hue),100%,50%);
     animation: hue-rotate 1s infinite linear;
-    font-family: Arial, sans-serif; /* Change font family here */
 }
 
 
@@ -143,7 +134,7 @@ span[class="bold__7430c underline_b218b4"] {
 
 @keyframes spin {
     from {
-        transform: perspective(400px) rotate3d(100, 1, 0, 0deg);
+        transform: perspective(400px) rotate3d(0, 1, 0, 0deg);
     }
     to {
         transform: perspective(400px) rotate3d(0, 1, 0, 360deg);
@@ -153,7 +144,6 @@ span[class="bold__7430c underline_b218b4"] {
 .messageContent_abea64 > em > s:has(>span) { 
     display: inline-block;
     animation: spin 1s infinite linear;
-    font-family: Arial, sans-serif; /* Change font family here */
 }
 
 .messageContent_abea64 > em > s:has(>span):hover {
