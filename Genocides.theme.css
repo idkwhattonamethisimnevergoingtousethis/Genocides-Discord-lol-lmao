@@ -143,7 +143,7 @@ span[class="bold__7430c underline_b218b4"] {
 
 @keyframes spin {
     from {
-        transform: perspective(400px) rotate3d(0, 1, 0, 0deg);
+        transform: perspective(400px) rotate3d(100, 1, 0, 0deg);
     }
     to {
         transform: perspective(400px) rotate3d(0, 1, 0, 360deg);
