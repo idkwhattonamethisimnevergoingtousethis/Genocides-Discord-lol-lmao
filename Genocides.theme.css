@@ -22,7 +22,7 @@
 span[class="bold__7430c"] {
     font-weight: bold;
     color: red;
-    text-shadow: 0px 0px 5px red,  0px 0px 5px red;
+    text-shadow: 0px 0px 5px red,  0px 0px 500px red;
     font-family: Arial, sans-serif; /* Change font family here */
 }
 
